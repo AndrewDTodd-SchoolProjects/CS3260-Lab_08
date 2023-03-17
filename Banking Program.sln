@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Banking Program UI_MAUI", "Banking Program UI_MAUI\Banking Program UI_MAUI.csproj", "{DA2CD399-98E2-4E94-B06B-7CF699E21EF6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Banking Program Unit Tester", "Banking Program Unit Tester\Banking Program Unit Tester.csproj", "{074F59F6-AE7D-4F2A-AF5F-4FB26E571644}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA2CD399-98E2-4E94-B06B-7CF699E21EF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA2CD399-98E2-4E94-B06B-7CF699E21EF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA2CD399-98E2-4E94-B06B-7CF699E21EF6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DA2CD399-98E2-4E94-B06B-7CF699E21EF6}.Debug|x64.ActiveCfg = Debug|x64
+		{DA2CD399-98E2-4E94-B06B-7CF699E21EF6}.Debug|x64.Build.0 = Debug|x64
+		{DA2CD399-98E2-4E94-B06B-7CF699E21EF6}.Debug|x64.Deploy.0 = Debug|x64
+		{DA2CD399-98E2-4E94-B06B-7CF699E21EF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA2CD399-98E2-4E94-B06B-7CF699E21EF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA2CD399-98E2-4E94-B06B-7CF699E21EF6}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{DA2CD399-98E2-4E94-B06B-7CF699E21EF6}.Release|x64.ActiveCfg = Release|x64
+		{DA2CD399-98E2-4E94-B06B-7CF699E21EF6}.Release|x64.Build.0 = Release|x64
+		{DA2CD399-98E2-4E94-B06B-7CF699E21EF6}.Release|x64.Deploy.0 = Release|x64
+		{074F59F6-AE7D-4F2A-AF5F-4FB26E571644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{074F59F6-AE7D-4F2A-AF5F-4FB26E571644}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{074F59F6-AE7D-4F2A-AF5F-4FB26E571644}.Debug|x64.ActiveCfg = Debug|x64
+		{074F59F6-AE7D-4F2A-AF5F-4FB26E571644}.Debug|x64.Build.0 = Debug|x64
+		{074F59F6-AE7D-4F2A-AF5F-4FB26E571644}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{074F59F6-AE7D-4F2A-AF5F-4FB26E571644}.Release|Any CPU.Build.0 = Release|Any CPU
+		{074F59F6-AE7D-4F2A-AF5F-4FB26E571644}.Release|x64.ActiveCfg = Release|x64
+		{074F59F6-AE7D-4F2A-AF5F-4FB26E571644}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {15F2D55C-F22C-41C6-B5A3-F6F61159FE88}
+	EndGlobalSection
+EndGlobal

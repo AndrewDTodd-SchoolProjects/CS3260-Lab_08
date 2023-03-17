@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Banking_Program_UI_MAUI.ContentPages.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Start">
+
+            <Label
+                Text="Welcome to the UVU Bank | BankNet Application"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="24"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="Please Select a sub-menue"
+                SemanticProperties.HeadingLevel="Level2"
+                FontSize="18"
+                HorizontalOptions="Center" />
+
+            <HorizontalStackLayout
+                Spacing="25"
+                Padding="30,0"
+                VerticalOptions="Center"
+                HorizontalOptions="Center">
+
+                <Button Text="Add new Account(s)" Clicked ="ADD_ACCOUNTS_BUTTON_CLICKED"/>
+                <Button Text="Search Accounts" Clicked="SEARCH_ACCOUNTS_BUTTON_CLICKED"/>
+                <Button Text="Account Info" Clicked="ACCOUNT_INFO_BUTTON_CLICKED"/>
+
+            </HorizontalStackLayout>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

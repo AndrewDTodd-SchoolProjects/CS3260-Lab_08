@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Banking_Program_UI_MAUI.ContentPages.AddAccountPage"
+             Title="Account Creation Menue">
+    <VerticalStackLayout>
+        <Label
+                Text="Welcome to the UVU Bank | BankNet Application"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="24"
+                HorizontalOptions="Center" />
+
+        <Label
+                Text="Account Creation"
+                SemanticProperties.HeadingLevel="Level2"
+                FontSize="18"
+                HorizontalOptions="Center" />
+
+        <ScrollView>
+            <Grid
+                HorizontalOptions="Center"
+                ColumnSpacing="150"
+                Margin="20,35,20,20">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <Label
+                    Grid.Column="0"
+                    Grid.Row="0"
+                    Text="Account Type"
+                    SemanticProperties.HeadingLevel="Level3"
+                    FontSize="20"
+                    HorizontalOptions="Start"/>
+
+                <Picker
+                    Grid.Column="1"
+                    Grid.Row="0"
+                    Title="Account Type"
+                    ItemsSource="{Binding AccountTypes}"/>
+
+                <Entry
+                    Grid.Column="1"
+                    Grid.Row="1"
+                    Placeholder="Enter Patron's Name"
+                    ClearButtonVisibility="WhileEditing"
+                    HorizontalTextAlignment="End"/>
+
+                <Label
+                    Grid.Column="0"
+                    Grid.Row="1"
+                    Text="Account Holder Name"
+                    SemanticProperties.HeadingLevel="Level3"
+                    FontSize="20"
+                    HorizontalOptions="Start"/>
+            </Grid>
+        </ScrollView>
+
+    </VerticalStackLayout>
+</ContentPage>
